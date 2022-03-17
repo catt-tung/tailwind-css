@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .img-scale{
+    @apply h-12 w-12
+  }
+}
